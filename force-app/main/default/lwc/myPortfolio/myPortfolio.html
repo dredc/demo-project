@@ -1,0 +1,21 @@
+<!-- Portfolio.html -->
+<template>
+    <section class="container-section">
+        <div class="content-text">
+            <h1 class="text-heading-normal">Hello, I am Dred,</h1>
+            <h1 class="text-heading-large">Salesforce</h1>
+            <h1 class="text-heading-large">Developer</h1>
+        </div>
+        <div class="image-container">
+            <template if:true={imageURL}>
+                <img class="section-image" src={getImageURL} alt="Image Description">
+            </template>
+        </div>
+    </section>
+
+    <section class="bordered-section">
+        <div class="content-line">
+            <h2 class="section-title">About Me</h2>
+        </div>
+    </section>
+</template>
